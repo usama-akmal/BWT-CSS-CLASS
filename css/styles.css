@@ -1,0 +1,34 @@
+@font-face {
+    font-family: "TwinkleLights";
+    src: url("fonts/Twinkle Lights Demo.otf");
+}
+
+body {
+    font-family: TwinkleLights, abc, Arial;
+}
+
+p {
+    font-size: larger;
+}
+
+h3 {
+    text-align: center;
+}
+
+p .blue-italic {
+    font-style: italic;
+    color: blue;
+}
+
+.bg-green {
+    background-color: greenyellow;
+}
+
+body > span {
+    color: purple;
+}
+
+body #footer {
+    background-color: yellow;
+}
+
