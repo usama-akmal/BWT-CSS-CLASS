@@ -32,3 +32,41 @@ body #footer {
     background-color: yellow;
 }
 
+.class-2-body {
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.class-2-body .text-decoration {
+    /* text-decoration: underline overline line-through wavy green 1px; */
+    text-decoration-line:underline overline;
+    text-decoration-style: dotted;
+    text-decoration-color: red;
+    text-decoration-thickness: 2px;
+    line-height: 2;
+    letter-spacing: 10px;
+}
+
+.class-2-body h3 {
+    text-shadow: 2px 2px 15px yellow ;
+}
+
+.class-2-body .text-indent {
+    text-indent: 35px;
+}
+.class-2-body .height {
+    height: 1000px;
+}
+.class-2-body h4 {
+    border: 5px double red;
+    /* margin: 10px 20px 30px 40px; */
+    /* margin: 25px; */
+    /* padding: 30px 15px 10px 5px; */
+    margin: auto;
+    min-width: 50px;
+    max-width: 100px;
+    /* width: 50px; */
+    /* height: 50px; */
+    min-height: 100px;
+    max-height: 1500px;
+}
