@@ -1,7 +1,7 @@
-@font-face {
+/* @font-face {
     font-family: "TwinkleLights";
     src: url("fonts/Twinkle Lights Demo.otf");
-}
+} */
 
 body {
     font-family: TwinkleLights, abc, Arial;
@@ -69,4 +69,95 @@ body #footer {
     /* height: 50px; */
     min-height: 100px;
     max-height: 1500px;
+}
+
+.inline-heading h1, .inline-heading h2 {
+    display: inline;
+}
+
+.boxes {
+    position: sticky;
+    bottom: 0;
+}
+
+.block-span-a span, .block-span-a a {
+    display: block;
+}
+
+.inline-block-div .box {
+    background-color: green;
+    border: 1px solid black;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+}
+
+.box-1 {
+    background-color: green;
+    border: 1px solid black;
+    display: block;
+}
+
+.box-2 {
+    background-color: green;
+    border: 1px solid black;
+    width: 100%;
+}
+
+.box-3 {
+    background-color: blue;
+    border: 1px solid black;
+    display: inline;
+}
+.box-4 {
+    background-color: red;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+.position-helper-relative, .position-helper-absolute {
+    height: 400px;
+    width: 400px;
+    background-color: orange;
+    margin: 5px;
+    position: relative;
+    z-index: -1;
+}
+
+.position-helper-relative div{
+    height: 50px;
+    width: 50px;
+    background-color: aqua;
+    border: 2px solid rgb(10, 9, 9);
+    display: inline-block;
+}
+
+.position-helper-absolute div{
+    height: 50px;
+    width: 50px;
+    background-color: aqua;
+    border: 2px solid rgb(10, 9, 9);
+    display: inline-block;
+}
+
+.position-helper-relative div:first-child {
+    position: relative;
+    /* top: 54px;
+    left: 58px; */
+    bottom: 54px;
+    right: 50px;
+} 
+
+.position-helper-absolute div:first-child {
+    position: absolute;
+    background-color: yellow;
+    right: 0;
+    bottom: 0;
+}
+
+
+.fixed-div {
+    background-color: red;
+    border: 2px solid grey;
+    position: fixed;
 }
