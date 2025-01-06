@@ -1,0 +1,75 @@
+
+
+.class-5 p:first-child {
+    color: blue;
+}
+
+.class-5 p:nth-child(2) {
+    color: red;
+}
+
+.class-5 p:nth-last-child(1) {
+    color: pink;
+}
+
+/* :not(p) {
+    color: green;
+}
+ */
+
+ /* p {
+    display: inline;
+ } */
+
+p:hover {
+    background-color: aquamarine;
+    /* display: inline; */
+    cursor: pointer;
+}
+
+/* p::before {
+    content: "-";
+} */
+p::after {
+    content: ".";
+}
+
+p::first-letter {
+    color: violet;
+    font-size: 50px;
+}
+
+.line::first-line {
+    background-color: aqua;
+}
+
+input {
+    outline: none;
+    /* border: none; */
+}
+
+input:focus {
+    color: red;
+    border: 5px solid green;
+}
+/* 
+input:focus-visible {
+    border: 5px solid green;
+} */
+
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    color: white;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0;
+}
+
+.box:hover {
+    font-size: 200px;
+    background-color: pink;
+}
