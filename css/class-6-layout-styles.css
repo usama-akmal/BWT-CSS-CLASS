@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: tomato;
+    padding: 10px;
+}
+
+.header {
+    height: 50px;
+    background-color: beige;
+}
+
+.content {
+    /* height: 500px; */
+    background-color: blue;
+}
+
+.footer {
+    height: 50px;
+    background-color: beige;
+}
+
+.content-container {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.content-container nav {
+    width: 18%;
+    background-color: aquamarine;
+}
+
+.content-container .section {
+    display: flex;
+    flex-direction: column;
+    width: 58%;
+    background-color: red;
+}
+
+.content-container aside {
+    width: 18%;
+    background-color: brown;
+}
+
+.content-container .section div {
+    margin: 10px;
+    border: 2px solid black;
+}
