@@ -46,11 +46,15 @@ body {
     grid-row: span 3;
 }
 
-.container div:nth-child(11), 
+/* .container div:nth-child(11), 
 .container div:nth-child(12),
 .container div:nth-child(13),
 .container div:nth-child(14), 
 .container div:nth-child(15),
 .container div:nth-child(16) {
+    grid-row: span 2;
+} */
+
+.container div:nth-child(n+11):nth-child(-n+16) {
     grid-row: span 2;
 }
