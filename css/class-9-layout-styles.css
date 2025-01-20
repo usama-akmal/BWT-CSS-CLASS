@@ -58,3 +58,12 @@ body {
 .container div:nth-child(n+11):nth-child(-n+16) {
     grid-row: span 2;
 }
+
+@media screen and (max-width: 576px) {
+    .container {
+        display: block;        
+    }
+    .container div{
+        margin: 10px;
+    }
+}
