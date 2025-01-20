@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Translate</title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 98vh;
+        }
+        .box {
+            display: flex;
+            background-color: tomato;
+            color: white;
+            height: 250px;
+            width: 250px;
+            justify-content: center;
+            align-items: center;
+            animation-name: translate-xyz;
+            animation-duration: 2s;
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: 1;
+        }
+
+        @keyframes translate-xyz {
+            0% {
+                transform: translate(0vw, 0vh);
+            }
+            10% {
+                transform: translate(0vw, -35vh);
+            }
+            20% {
+                transform: translate(35vw, -35vh);
+            }
+            30% {
+                transform: translate(35vw, 0vh);
+            }
+            40% {
+                transform: translate(35vw, 35vh);
+            }
+            50% {
+                transform: translate(0vw, 35vh);
+            }
+            60% {
+                transform: translate(-35vw, 35vh);
+            }
+            70% {
+                transform: translate(-35vw, 0vh);
+            }
+            80% {
+                transform: translate(-35vw, -35vh);
+            }
+            90% {
+                transform: translate(0vw, -35vh);
+            }
+            100% {
+                transform: translate(0vw, 0vh);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <div>BOX</div>
+        </div>
+    </div>
+</body>
+</html>
